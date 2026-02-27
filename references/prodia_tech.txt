@@ -1,0 +1,26 @@
+Software Intern – Feature Development
+
+Prodia Technologies | Remote / Miami, FL
+Dec 2025 - Present
+
+Professional Summary
+
+Contributed to the development of production-ready healthcare application features at a biotech startup focused on patient–clinician connectivity and biomarker visualization. Worked across frontend and backend systems using Flutter and Firebase to design, implement, and test features supporting real clinical workflows. Collaborated directly with clinic partners and leadership to translate operational needs into secure, scalable software solutions.
+
+Key Contributions & Impact
+
+Developed and deployed new mobile app features using Flutter, following production design specifications.
+
+Designed and modified Firebase data models to support new feature functionality and evolving product requirements.
+
+Improved UI flows and user workflows to better align with real-world clinic operations.
+
+Assisted with third-party API integrations to extend platform capabilities.
+
+Tested features pre-release, identified defects, and documented bugs to ensure stability and reliability.
+
+Collaborated with clinical partners to gather requirements and validate functionality against real patient workflows.
+
+Presented weekly progress updates to leadership, strengthening cross-functional communication skills.
+
+Gained exposure to HIPAA-compliant development practices and secure healthcare data handling.
