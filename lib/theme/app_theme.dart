@@ -28,43 +28,43 @@ class AppTheme {
         onSurface: textPrimaryLight,
       ),
       scaffoldBackgroundColor: backgroundLight,
-      textTheme: GoogleFonts.interTextTheme(ThemeData.light().textTheme)
+      textTheme: GoogleFonts.jetBrainsMonoTextTheme(ThemeData.light().textTheme)
           .copyWith(
-            displayLarge: GoogleFonts.inter(
+            displayLarge: GoogleFonts.jetBrainsMono(
               fontSize: 72,
               fontWeight: FontWeight.w900,
               color: textPrimaryLight,
               height: 1.1,
             ),
-            displayMedium: GoogleFonts.inter(
+            displayMedium: GoogleFonts.jetBrainsMono(
               fontSize: 60,
               fontWeight: FontWeight.w900,
               color: textPrimaryLight,
               height: 1.1,
             ),
-            displaySmall: GoogleFonts.inter(
+            displaySmall: GoogleFonts.jetBrainsMono(
               fontSize: 48,
               fontWeight: FontWeight.w900,
               color: textPrimaryLight,
               height: 1.1,
             ),
-            headlineMedium: GoogleFonts.inter(
+            headlineMedium: GoogleFonts.jetBrainsMono(
               fontSize: 36,
               fontWeight: FontWeight.bold,
               color: textPrimaryLight,
               height: 1.2,
             ),
-            bodyLarge: GoogleFonts.inter(
+            bodyLarge: GoogleFonts.jetBrainsMono(
               fontSize: 18,
               color: textSecondaryLight,
               height: 1.6,
             ),
-            bodyMedium: GoogleFonts.inter(
+            bodyMedium: GoogleFonts.jetBrainsMono(
               fontSize: 16,
               color: textSecondaryLight,
               height: 1.6,
             ),
-            labelLarge: GoogleFonts.inter(
+            labelLarge: GoogleFonts.jetBrainsMono(
               fontSize: 14,
               fontWeight: FontWeight.bold,
               color: textPrimaryLight,
@@ -85,43 +85,43 @@ class AppTheme {
         onSurface: textPrimaryDark,
       ),
       scaffoldBackgroundColor: backgroundDark,
-      textTheme: GoogleFonts.interTextTheme(ThemeData.dark().textTheme)
+      textTheme: GoogleFonts.jetBrainsMonoTextTheme(ThemeData.dark().textTheme)
           .copyWith(
-            displayLarge: GoogleFonts.inter(
+            displayLarge: GoogleFonts.jetBrainsMono(
               fontSize: 72,
               fontWeight: FontWeight.w900,
               color: Colors.white,
               height: 1.1,
             ),
-            displayMedium: GoogleFonts.inter(
+            displayMedium: GoogleFonts.jetBrainsMono(
               fontSize: 60,
               fontWeight: FontWeight.w900,
               color: Colors.white,
               height: 1.1,
             ),
-            displaySmall: GoogleFonts.inter(
+            displaySmall: GoogleFonts.jetBrainsMono(
               fontSize: 48,
               fontWeight: FontWeight.w900,
               color: Colors.white,
               height: 1.1,
             ),
-            headlineMedium: GoogleFonts.inter(
+            headlineMedium: GoogleFonts.jetBrainsMono(
               fontSize: 36,
               fontWeight: FontWeight.bold,
               color: Colors.white,
               height: 1.2,
             ),
-            bodyLarge: GoogleFonts.inter(
+            bodyLarge: GoogleFonts.jetBrainsMono(
               fontSize: 18,
               color: textPrimaryDark,
               height: 1.6,
             ),
-            bodyMedium: GoogleFonts.inter(
+            bodyMedium: GoogleFonts.jetBrainsMono(
               fontSize: 16,
               color: textPrimaryDark,
               height: 1.6,
             ),
-            labelLarge: GoogleFonts.inter(
+            labelLarge: GoogleFonts.jetBrainsMono(
               fontSize: 14,
               fontWeight: FontWeight.bold,
               color: Colors.white,

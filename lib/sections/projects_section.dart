@@ -41,11 +41,12 @@ class ProjectsSection extends StatelessWidget {
 
   Widget _buildHeader(BuildContext context) {
     final isMobile = ResponsiveLayout.isMobile(context);
+    final isTablet = ResponsiveLayout.isTablet(context);
 
     return Flex(
-      direction: isMobile ? Axis.vertical : Axis.horizontal,
+      direction: isTablet || isMobile ? Axis.vertical : Axis.horizontal,
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      crossAxisAlignment: isMobile
+      crossAxisAlignment: isTablet || isMobile
           ? CrossAxisAlignment.start
           : CrossAxisAlignment.end,
       children: [
@@ -63,7 +64,7 @@ class ProjectsSection extends StatelessWidget {
             ),
           ],
         ),
-        if (isMobile) const SizedBox(height: 24),
+        if (isTablet || isMobile) const SizedBox(height: 24),
         InkWell(
           onTap: () => _launchUrl(PortfolioData.githubUrl),
           child: Row(
