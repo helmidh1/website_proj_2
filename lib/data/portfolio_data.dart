@@ -113,7 +113,7 @@ class PortfolioData {
           'A premium, responsive web portfolio built with Flutter and Dart, co-authored with Antigravity AI using Gemini 3. Designed in Figma and deployed on Firebase.',
       tags: ['Dart', 'Flutter', 'Firebase', 'Figma'],
       demoUrl: 'https://helmidh.dev/',
-      codeUrl: 'https://github.com/Helmi-Flutter-Projects/website_proj_1',
+      codeUrl: 'https://github.com/helmidh1/website_proj_2',
       imagePath: 'assets/projects/flutter_firebase.png',
     ),
   ];
